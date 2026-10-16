@@ -1,6 +1,6 @@
 ---
 name: tax-research
-description: Research tax law with IFG official sources — find the right text, read it at the date of the tax event, and cite its official link. Use for any question on French (overseas territories included), Luxembourg, Swiss (federal and cantonal), Belgian (federal and regional), German, Monegasque, Andorran, Italian, UK, Dutch or Spanish tax law, tax treaties, EU tax law, OECD guidance or the UN Model.
+description: Research tax law with IFG official sources — find the right text, read it at the date of the tax event, and cite its official link. Use for any question on French (overseas territories included), Luxembourg, Swiss (federal and cantonal), Belgian (federal and regional), German, Monegasque, Andorran, Italian, UK, Dutch, Spanish, Hungarian, Slovenian, Croatian, Czech or Slovak tax law, tax treaties, EU tax law, OECD guidance or the UN Model.
 ---
 
 # Tax research with IFG
@@ -13,7 +13,7 @@ IFG serves official tax texts (laws, codes, treaties, administrative doctrine, r
 1. **Never answer tax law from memory.** Every rule you rely on comes from a text returned by IFG in this conversation.
 2. **Find the authority** with `search_authority`:
    - `query` is a reference (`CGI 119 bis`, `LIR 56bis`, `AStG 7`, `treaty/CH-FR-1966/11`, `ECLI:FR:CE…`, `BOI-RPPM-RCM-30-30-20-20`) or an official title, never a question or a sentence.
-   - `jurisdiction` is required for a free query: `FR`, `LU`, `CH`, `BE`, `DE`, `MC`, `AD`, `IT`, `GB`, `NL`, `ES`, `treaty`, `EU`, `OECD`, `UN` (United Nations: UN Model Tax Convention).
+   - `jurisdiction` is required for a free query: `FR`, `LU`, `CH`, `BE`, `DE`, `MC`, `AD`, `IT`, `GB`, `NL`, `ES`, `HU`, `SI`, `HR`, `CZ`, `SK`, `treaty`, `EU`, `OECD`, `UN` (United Nations: UN Model Tax Convention). Other EU countries opened one by one: `NL` the Netherlands, `ES` Spain, `HU` Hungary, `SI` Slovenia, `HR` Croatia, `CZ` Czechia, `SK` Slovakia.
    - A country code also finds its subdivisions: the 26 Swiss cantons (`CH-GE`, `CH-VD`, `CH-ZH`…), the German Länder (`DE-BY`…), the Belgian regions (Flanders, Wallonia, Brussels) and the Andorran parishes; a subdivision code (`CH-GE`, `BE-VLG`, `AD-07`) is also accepted.
    - French overseas tax codes and local texts (octroi de mer…) are under their own code, not `FR`: `PF` French Polynesia, `NC` New Caledonia, `WF` Wallis and Futuna, `PM` Saint Pierre and Miquelon, `BL` Saint Barthélemy, `MF` Saint Martin, `RE` Réunion, `GP` Guadeloupe, `MQ` Martinique, `GF` French Guiana, `YT` Mayotte; French national law applying there is under `FR`.
    - Use `kinds` to stay in one layer when needed (`code`, `statute`, `treaty`, `doctrine`, `rulings`, `case_law`, `forms_procedure`, `legislative_history`, `eu_law`, `official_data`).
@@ -28,4 +28,4 @@ IFG serves official tax texts (laws, codes, treaties, administrative doctrine, r
 
 ## Scope
 
-France and its overseas territories, Luxembourg, Switzerland and its cantons, Belgium and its regions, Germany and its Länder, Monaco, Andorra and its parishes, Italy, the UK, the Netherlands and Spain, their tax treaties, the EU, the OECD and the UN Model; more countries are added one by one. Coverage and known gaps are declared country by country; IFG is a documentary infrastructure — the professional remains responsible for the legal analysis and conclusion.
+France and its overseas territories, Luxembourg, Switzerland and its cantons, Belgium and its regions, Germany and its Länder, Monaco, Andorra and its parishes, Italy, the UK, the Netherlands, Spain, Hungary, Slovenia, Croatia, Czechia and Slovakia, their tax treaties, the EU, the OECD and the UN Model; more countries are added one by one. Coverage and known gaps are declared country by country; IFG is a documentary infrastructure — the professional remains responsible for the legal analysis and conclusion.
