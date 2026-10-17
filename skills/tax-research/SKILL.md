@@ -24,7 +24,7 @@ IFG serves official tax texts (laws, codes, treaties, administrative doctrine, r
 4. **Cite** every authority with its `citation.markdown` (official link with the version date). Never cite a text IFG did not return.
 5. **Treat gaps honestly**: `official_proof_required`, `identifier_unresolved`, `no_hit_for_this_query` and `time_budget` are typed gaps, not proof that a text does not exist. Retry `time_budget`; say plainly when a source is missing.
 6. If `textVerification` is `ocr_unverified`, say that the text is an unchecked OCR transcription and point to the official PDF.
-7. For monitoring, `changes_since(jurisdiction, since)` lists legal changes (created, amended, repealed, new decisions and rulings) from a date, including announced future effects.
+7. For monitoring, `changes_since(jurisdiction, since)` lists legal changes (created, amended, repealed, new decisions and rulings) from a date, including announced future effects. A change whose effective date is not proven carries `noLaterThan` (in force at the latest on that day) instead of `effectiveFrom`; in `get_authority`, such a version has `from` null and `publisherVersion` with `dateBasis: no_later_than`: never treat it as an effective date.
 
 ## Scope
 
