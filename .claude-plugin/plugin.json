@@ -1,7 +1,7 @@
 {
   "name": "ifg",
-  "version": "2.0.6",
-  "description": "For tax professionals. Claude gets the official tax text in force on the date of the facts, with its status, its versions and a clickable link to the official source, together with the guidance and case law linked to it. Covers the 27 EU member states (French overseas territories included), Switzerland and its cantons, the UK, Monaco, Andorra and the US (federal law and selected states), plus tax treaties and the multilateral convention, EU law, the OECD and the UN Model. Requires an IFG account.",
+  "version": "2.0.7",
+  "description": "For tax professionals. Claude reads official tax texts at the date of the facts, with status, versions and clickable publisher links. Covers 32 European jurisdictions (all 27 EU states, French overseas, Switzerland and cantons, the UK, Monaco, Andorra, Liechtenstein) and Israel, plus bilateral tax treaties, EU law, OECD and UN Models. 7-day free trial, no card.",
   "author": {
     "name": "IFG",
     "email": "contact@ifg.tax",
@@ -10,7 +10,7 @@
   "homepage": "https://ifg.tax",
   "privacyPolicyUrl": "https://ifg.tax/privacy-policy",
   "documentationUrl": "https://ifg.tax/connect",
-  "termsOfServiceUrl": "https://ifg.tax/cgv",
+  "termsOfServiceUrl": "https://ifg.tax/terms-and-conditions",
   "repository": "https://github.com/aitorgarcia21/ifg",
   "license": "MIT",
   "keywords": [
@@ -19,6 +19,7 @@
     "fiscalite",
     "legal-research",
     "tax-treaties",
+    "europe",
     "france",
     "luxembourg",
     "switzerland",
@@ -27,18 +28,18 @@
     "italy",
     "monaco",
     "andorra",
+    "liechtenstein",
     "spain",
     "netherlands",
     "united-kingdom",
+    "cyprus",
+    "poland",
+    "portugal",
+    "austria",
+    "ireland",
+    "israel",
     "eu-law",
     "oecd",
-    "mcp",
-    "hungary",
-    "slovenia",
-    "croatia",
-    "czechia",
-    "slovakia",
-    "united-states",
-    "internal-revenue-code"
+    "mcp"
   ]
 }
